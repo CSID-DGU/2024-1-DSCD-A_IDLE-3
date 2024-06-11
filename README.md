@@ -1,4 +1,4 @@
-# 2024년 1학기 오픈소스소프트웨어프로젝트 3조 A-IDLE
+# 2024년 1학기 데이터사이언스 캡스톤디자인 프로젝트 3조 A-IDLE
 ## 생성형 AI를 활용한 블로그 콘텐츠 자동화 솔루션
 
 ### 개요
@@ -16,10 +16,10 @@
 - **브랜딩 강화**: 브랜드 블로그 담당자를 위한 손쉬운 콘텐츠 생성 도우미입니다.
 
 ### 설치와 사용 방법
-1. [최신 버전 다운로드](https://github.com/your-repo/releases)
-2. `make start`로 Docker 실행
-3. 자세한 설치 및 사용 방법은 [식탁보 홈페이지](https://github.com/your-repo)에서 확인하세요.
-
+- cd Dockerfile/develop
+- makefile
+- `make start`로 Docker 실행
+---
 ### 개발 환경
 - **빌드 환경**
   - Visual Studio 2022 이상
@@ -44,8 +44,6 @@
 ---
 
 
-
-
 ## 데이터/요구 사항
 - **데이터 수집 및 분석**: 네이버 뉴스 크롤링, 연관성 높은 기사 필터링, 프롬프트에 넘김
 - **Knowledge Generation**: 프롬프트 엔지니어링 선정
@@ -53,17 +51,6 @@
   - Retrieval
   - Template
   - Chaining
-
-### 스폰서
-GitHub Sponsorship을 통해 후원해주시면 프로젝트 진행에 큰 도움이 됩니다. [프로젝트 후원하러 가기](https://github.com/sponsors/your-repo)
-
-### 저작권 정보
-- Tablecloth Icon by Icons8
-- Spork Icon by Freepik Flaticon
-- Sponge Icon by Freepik Flaticon
-
-
-
 
 ### 팀 구성
 | 구분 | 성명   | 학번       | 소속학과          | 연계전공            | 이메일               |
@@ -74,10 +61,7 @@ GitHub Sponsorship을 통해 후원해주시면 프로젝트 진행에 큰 도�
 | 팀원 |조유솔 | 2020110506 | 통계학과 | 데이터사이언스연계전공        | yusol2001@dgu.ac.kr |
 ---
 
-### Dockerfile/develop
-- makefile
-- make start - docker 실행
----
+
 ### workflow 
 | 파일        | 역할                                                                                           |
 |------------|------------------------------------------------------------------------------------------------|
